@@ -1,0 +1,33 @@
+.sectionEducation {
+  padding: 9.6rem 0;
+}
+.educationTitle {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 3.6rem;
+}
+.educationList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.educationItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+}
+.educationYear {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+.educationName {
+  font-size: 1.6rem;
+  color: #fff;
+  opacity: 0.8;
+}

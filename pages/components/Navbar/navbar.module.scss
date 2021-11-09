@@ -1,0 +1,32 @@
+.mainNavList {
+  display: flex;
+  list-style: none;
+  gap: 3.2rem;
+  align-items: center;
+}
+.mainNavLink {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.3s;
+  &:hover {
+    background-size: 300% 100%;
+    background-position: right;
+    background-image: linear-gradient(to right, #fff, #fff, #25aae1, #4481eb);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.6rem;
+}
+.logo {
+  height: 2.2rem;
+}
